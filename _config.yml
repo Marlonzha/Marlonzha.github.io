@@ -22,10 +22,10 @@ url                      : https://Marlonzha.github.io # the base hostname & pro
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "150254140.jfif"
   name             : "Monster Marlon"
   pronouns         : # example: "she/her"  
-  bio              : "中国上海量化交易"
+  bio              : "量化交易研究"
   location         : "China Shanghai"
   employer         : #""
   uri              : # URL
