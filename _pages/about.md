@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Marlon.zhao的Github主页（来自Academic Pages）"
+title: "Marlon.zhao的Github主页"
 author_profile: true
 redirect_from: 
   - /about/
@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 It's a pleasure to join Github. I'm here to learn and share my knowledge about Quant-Trade.
+很高兴能在这里记录我在量化交易上的成长。
 
 
 计划半年的时间完成以下项目内容的学习
