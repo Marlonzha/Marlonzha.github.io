@@ -1,3 +1,12 @@
+---
+title: "双均线策略"
+collection: talks
+type: "Talk"
+permalink: /talks/Futures-双均线策略-天勤.md
+venue: "策略的测试和研究"
+date: 2025-03-18
+location: "China Taicang"
+---
 天勤量化的双均线策略：https://doc.shinnytech.com/tqsdk/latest/demo/strategy.html#doublema  
 思路：定义长短周期：Long=60，Short=30，标的，通过计算周期内标的的收盘价的移动平均值：MA60和MA30的上下关系来作为开平仓依据。  
 这种均线策略：在大幅度、长时间的波动中能有不错的收益。在短期内的横盘震荡行情中会出现持续亏损。  
