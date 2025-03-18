@@ -2,7 +2,7 @@
 title: "双均线策略"
 collection: talks
 type: "Talk"
-permalink: /talks/Futures-双均线策略-天勤.md
+permalink: /talks/Futures-双均线策略-天勤
 venue: "策略的测试和研究"
 date: 2025-03-18
 location: "China Taicang"
