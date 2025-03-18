@@ -15,8 +15,7 @@ location: "China Taicang"
 ##回测下来发现问题：  
 长短周期较短时，如MA15、MA5会出现交叉点不能买入的情况。原因是订阅的K线`klines["close"]`并不是总是返回每天的收盘价格。  
 经过仔细核对发现`klines.iloc[-1]["close"]`是当日的开盘价格。 因为： 天勤内置的函数：api.is_changing：判断到参数内的指定字段变化后就会更新。导致只能获取到每天的开盘价和历史的收盘价格这样一个奇怪的组合。
-
-```python
+/```python
 def is_changing(self, obj: Any, key: Union[str, List[str], None] = None) -> bool:
         """
         判定obj最近是否有更新
@@ -33,5 +32,5 @@ def is_changing(self, obj: Any, key: Union[str, List[str], None] = None) -> bool
                                   * 不指定: 当该obj下的任意字段有更新时返回True, 否则返回 False.
                                   * str: 当该obj下的指定字段有更新时返回True, 否则返回 False.
                                   * list of str: 当该obj下的指定字段中的任何一个字段有更新时返回True, 否则返回 False
-```
+/```
 
