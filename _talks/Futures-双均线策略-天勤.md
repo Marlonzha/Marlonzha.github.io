@@ -5,6 +5,7 @@
 经过仔细核对发现klines.iloc[-1]["close"]是当日的开盘价格。 因为： 天勤内置的含税：api.is_changing：文档内纸样写的
 
 code：
+''' python
 def is_changing(self, obj: Any, key: Union[str, List[str], None] = None) -> bool:
         """
         判定obj最近是否有更新
@@ -21,4 +22,5 @@ def is_changing(self, obj: Any, key: Union[str, List[str], None] = None) -> bool
                                   * 不指定: 当该obj下的任意字段有更新时返回True, 否则返回 False.
                                   * str: 当该obj下的指定字段有更新时返回True, 否则返回 False.
                                   * list of str: 当该obj下的指定字段中的任何一个字段有更新时返回True, 否则返回 False.
+'''
 
